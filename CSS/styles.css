@@ -493,44 +493,28 @@ div .remeras_titulo {
 
 .foto_proyecto img {
 
-	height: 700px;
+	width: 440px;
+	border: solid;
+	border-right-style: none;
 
 
 }
 
-.proyecto_verde {
-
-	border-right:solid;
-	background-color: #1f8c64; 
-}
 
 .texto_proyecto {
 
-	border-left:solid;
-	
-	display: flex;
-	flex-flow: column nowrap;
-	flex-grow: 1;
-
-	justify-content: center;
-	height: 35vw;
-	width: 45vw;
-
+	width: 700px;
+	border:solid;
 }
-
 
 .titulo_proyecto {
 
-	font-size: 2.5rem;
+	font-size: 4rem;
 	font-weight: 300;
 	font-style: italic;
 
-	padding-left: 2.5vw;
-	padding-right: 2.5vw;
-
+	padding:40px;
 	
-	height: 5vw;
-	width: 45vw;
 	border-bottom: solid;
 
 	display: flex;
@@ -544,11 +528,8 @@ div .remeras_titulo {
 	font-size: 1.5rem;
 	font-weight: 200;
 
-	padding-left: 2.5vw;
-	padding-right: 2.5vw;
+	padding: 20px;
 
-	height: 30vw;
-	width: 45vw;
 
 } 
 
