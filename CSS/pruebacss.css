@@ -1,2 +1,540 @@
-body {
-  color: grey; }
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+  * body {
+    background-color: #e6e6e6;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-size: 5rem;
+    font-family: 'IBM Plex Serif', serif; }
+    * body header .container nav {
+      background-color: #e6e6e6;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      margin-right: 1.5rem; }
+      * body header .container nav ul {
+        border: solid; }
+        * body header .container nav ul li {
+          list-style: none;
+          background-color: #e6e6e6;
+          font-size: 3rem; }
+          * body header .container nav ul li a {
+            color: #1a1a1a;
+            text-decoration: none; }
+          * body header .container nav ul li a:hover {
+            color: #1a1a1a !important;
+            background-color: #d99cc5; }
+
+
+
+/*TEXTO GENERAL*/
+
+ .titulos {
+
+ 	color: #1a1a1a;
+ 	font-style: italic;
+ 	font-weight: 500;
+ 	text-align: center;
+ 	font-size: 8rem;
+
+
+ }
+
+ .subtitulos {
+
+ 	color: #1a1a1a;
+ 	text-align: center;
+ 	font-weight: 400;
+ 	font-size: 2rem;
+ }
+
+ .parrafo {
+
+ 	color: #1a1a1a;
+ 	font-weight: 400;
+ 	font-size: 2rem;
+
+ }
+
+ .links {
+
+	 text-decoration: none;
+	 color: #1a1a1a;
+	 font-size: 1.25rem;
+}
+
+
+.icono img{
+
+	height: 1.25rem;
+	margin:5px;
+}
+
+/*FOOTER*/
+
+ footer {
+
+  	color: #1a1a1a;
+  	background-color: #e6e6e6;
+ 	
+ 	text-transform: uppercase;
+ 	font-family: 'IBM Plex Sans', sans-serif;
+ 	font-weight: 500;
+ 
+ 
+ 	margin-top: 5vw;
+ 	margin-bottom: 5vw;
+ 
+ 	
+ 	}
+
+ footer #secciones {
+
+ 	border-style: solid;
+ 	border-right:none;
+ 	text-align: left;
+ 	height: 12rem;
+ 	width: 60vh;
+
+ 	padding-top: 1rem;
+
+
+
+
+ }
+
+footer #contacto {
+
+	background-color:#f2bf26;
+	text-align: right;
+	border-style: solid;
+	height: 12rem;
+
+	padding-top: 2.5rem;
+
+
+}
+
+footer ul li{
+
+	list-style: none;
+
+}
+
+footer ul li a:hover{
+
+	text-decoration: none;
+	color: black;
+
+}
+
+
+/*INDEX*/
+
+.btn-primary {
+
+	border: solid;
+	background-color: #e6e6e6;
+ 	color: #1a1a1a;
+
+ 	font-size: 1.5rem;
+
+ 	padding: 10px;
+ 	width: 100px;
+}
+
+.btn-primary:hover {
+
+	border: solid;
+	background-color: #1a1a1a;
+ 	color: #e6e6e6;
+ 	padding: 10px;
+ 	width: 100px;
+}
+
+
+.btn:hover {
+
+	text-decoration: none;
+}
+
+
+.index_verde{
+
+	background-color: #1f8c64;
+	border: solid;
+
+	max-height: 400px;
+	min-height: 300px;
+
+	padding: 40px;
+
+
+ 	color: #1a1a1a;
+ 	text-align: center;
+ 	font-weight: 700;
+ 	font-style: italic;
+ 	font-size: 3rem;
+}
+
+.index_amarillo{
+
+	background-color: #f2bf26;
+	border: solid;
+	
+	max-height: 400px;
+	min-height: 300px;
+
+	padding: 40px;
+
+
+ 	color: #1a1a1a;
+ 	text-align: center;
+ 	font-weight: 700;
+ 	font-style: italic;
+ 	font-size: 3rem;
+}
+
+.index_rosa{
+
+	background-color: #d99cc5;
+	border: solid;
+	
+
+	max-height: 400px;
+	min-height: 300px;
+
+	padding: 40px;
+
+
+ 	color: #1a1a1a;
+ 	text-align: center;
+ 	font-weight: 700;
+ 	font-style: italic;
+ 	font-size: 3rem;
+}
+
+
+/*SOBRE MI*/
+
+.texto_sobre_mi {
+
+	background-color: #e6e6e6;
+	border: solid;
+	
+
+}
+
+.img-fluid img{
+
+	max-width: 100%;
+	height: auto;
+	border: solid;
+
+
+}
+
+
+
+
+
+/*REMERAS*/
+
+@media screen and (max-width: 360px); 
+
+{.hijo_remeras img {
+
+	max-width: 360px;
+
+} }
+
+
+
+div .remeras_titulo {
+
+	height: 200px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+	border: solid;
+}
+
+.remeras_subtitulo {
+
+	height: 75px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d99cc5;
+	border: solid;
+	border-top: none;
+}
+
+.flashcookie_link {
+
+	font-size: 3rem;
+	text-decoration: none;
+	color:#1a1a1a;
+
+}
+
+.flashcookie_link:hover {
+
+	text-decoration: none;
+	color:#e6e6e6;
+
+}
+
+
+
+
+
+.hijo_remeras {
+
+	border: solid 5px;
+	transition: all 0.5s;
+
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+
+.hijo_remeras:hover {
+
+	transform: scale(1.02);
+
+}
+
+.hijo_remeras img {
+
+	max-width: 450px;
+
+}
+
+
+.tag_rojo_remeras{
+	
+	height: 100px;
+	font-size: 2.5rem;
+	background-color: #d95d41;
+	border:none;
+	border-bottom: solid;
+ 	display: flex;
+ 	justify-content: center;
+ 	padding-top: 30px;
+
+
+}
+
+.tag_amarillo_remeras{
+	
+	height: 100px;
+	font-size: 2.5rem;
+	background-color: #f2bf26;
+	border-bottom: solid;
+ 	display: flex;
+ 	justify-content: center;
+ 	padding-top: 30px;
+
+}
+
+.tag_verde_remeras{
+	
+	height: 100px;
+	font-size: 2.5rem;
+	background-color: #1f8c64;
+	border-bottom: solid;
+ 	display: flex;
+ 	justify-content: center;
+ 	padding-top: 30px;
+
+}
+
+.tag_rosa_remeras{
+	
+	height: 100px;
+	font-size: 2.5rem;
+	background-color: #d99cc5;
+	border-bottom: solid;
+ 	display: flex;
+ 	justify-content: center;
+ 	padding-top: 30px;
+
+}
+
+/*PORTFOLIO*/
+
+.main_portfolio {
+
+
+	border: solid;
+	margin-bottom: 5vw;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.portfolio_titulo {
+
+	height: 200px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio_amarillo {
+
+	height: 75px;
+	display:flex;
+	justify-content: center;
+	background-color: #f2bf26;
+	border-top: solid;
+}
+
+
+.proyectos_portfolio {
+
+	display: flex;
+	flex-flow: column wrap;
+	height: 700px;
+
+
+}
+
+.proyecto {
+
+
+	border: solid;
+	display: flex;
+	flex-flow: row wrap;
+
+
+
+}
+
+.foto_proyecto img {
+
+	width: 440px;
+	border: solid;
+	border-right-style: none;
+
+
+}
+
+
+.texto_proyecto {
+
+	width: 700px;
+	border:solid;
+}
+
+.titulo_proyecto h2{
+
+	font-size: 5rem;
+	font-weight: 300;
+	font-style: italic;
+
+	padding:40px;
+	
+	border-bottom: solid;
+
+	display: flex;
+	align-items: center;
+
+
+}
+
+.parrafo_proyecto p {
+
+	font-size: 2rem;
+	font-weight: 200;
+
+	padding: 20px;
+
+
+} 
+
+
+ 
+ /*CONTACTO*/
+
+
+ form {
+ 	font-size: 2rem;
+ }
+ .color_verde_contacto {
+
+
+
+ 	border: solid;
+ 	border-right: none;
+ 	background-color: #1f8c64; 
+ }
+
+ .contacto_titulo {
+
+ 	border-bottom: solid;
+
+ }
+
+
+ .contacto_hijo {
+
+ 	display: flex;
+ 	flex-flow: column wrap;
+
+ 	padding: 2.5vw;
+
+ }
+
+.contacto label {
+
+	margin-top: 0.5vw;
+	margin-bottom: 0.5vw;
+}
+
+.contacto input {
+
+	margin-top: 0.5vw;
+	margin-bottom: 0.5vw;
+}
+
+
+ .contacto_estilo {
+
+ 	border:solid;
+
+
+ }
+
+ .botones_contacto {
+
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	width: 40vw;
+
+
+ }
+
+ .boton_individual {
+
+ 	width: 15vw;
+ 	margin: 2.5vw;
+ 	background-color: #1f8c64;
+ 	border: solid;
+ }
+
+ .newsletter {
+
+ 	display: flex;
+ 	flex-flow: row wrap;
+ }
+
+ .checkbox {
+
+ 	margin-left: 10px;
+ }
+
